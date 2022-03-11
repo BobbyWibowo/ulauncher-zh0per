@@ -31,6 +31,13 @@
           {"text": "Bash", "value": "bash"},
           {"text": "ZSH", "value": "zsh"}
         ]
+      },
+      {
+        "id": "terminal_cmd",
+        "type": "input",
+        "name": "Terminal command override",
+        "description": "Using this option will ignore Terminal and Environment type options. This is to support uncommon behavior such as Alacritty, with which you will have to use \"/path/to/alacritty --hold --command\" in this option.",
+        "default_value": ""
       }
     ]
   }
